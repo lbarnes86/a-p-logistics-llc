@@ -1,10 +1,18 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
 <!--  Last Published: Tue Sep 07 2021 23:49:58 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="6137ef923b421e50682c0586" data-wf-site="6137ef923b421e9b1d2c056b">
+<html data-wf-page="6137ef923b421e5df62c0570" data-wf-site="6137ef923b421e9b1d2c056b">
 <head>
   <meta charset="utf-8">
-  <title>| Global Webflow HTML website template</title>
-  <meta content="" name="description">
+  <title>A&amp;P Logistics, LLC</title>
+  <meta content="A&amp;P Logistics, LLC is a website oriented towards transportation and other business services." name="description">
+  <meta content="A&amp;P Logistics, LLC" property="og:title">
+  <meta content="A&amp;P Logistics, LLC is a website oriented towards transportation and other business services." property="og:description">
+  <meta content="https://uploads-ssl.webflow.com/5d5a497d83100b4a7107c6a2/5d6524979883e8ee3535a864_OpenGraph.png" property="og:image">
+  <meta content="A&amp;P Logistics, LLC" property="twitter:title">
+  <meta content="A&amp;P Logistics, LLC is a website oriented towards transportation and other business services." property="twitter:description">
+  <meta content="https://uploads-ssl.webflow.com/5d5a497d83100b4a7107c6a2/5d6524979883e8ee3535a864_OpenGraph.png" property="twitter:image">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -22,7 +30,7 @@
     <div class="navbar-div">
       <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
         <div class="logo-div">
-          <a href="index.html" class="logo w-nav-brand"><img src="images/logo-global.svg" alt="logo" class="logo-image"></a>
+          <a href="index.html" aria-current="page" class="logo w-nav-brand w--current"><img src="images/aplogow.png" width="110" height="100" alt="logo" class="logo-image"></a>
         </div>
         <nav role="navigation" class="nav-menu w-nav-menu">
           <div data-delay="0" data-hover="true" class="dropdown-toggle w-dropdown">
@@ -35,6 +43,22 @@
               <a href="services.html" class="navigation-link w-inline-block">
                 <div class="dropdown-link">All Services</div>
               </a>
+
+
+              <div class="navigation-wrapper w-dyn-list">
+                <div role="list" class="navigation-list w-dyn-items">
+                  <div role="listitem" class="navigation-item w-dyn-item">
+                    <a href="detail_service.html" class="navigation-link w-inline-block">
+                      <div class="dropdown-link"></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="navigation-empty-state w-dyn-empty">
+               <a href="detail_service.html" > <div class="dropdown-link">Dispatch</div>
+               </a>
+                </div>
+              </div>
+
               <div class="navigation-wrapper w-dyn-list">
                 <div role="list" class="navigation-list w-dyn-items">
                   <div role="listitem" class="navigation-item w-dyn-item">
@@ -44,12 +68,13 @@
                   </div>
                 </div>
                 <div class="navigation-empty-state w-dyn-empty">
-                  <div class="dropdown-link">Nothing Found</div>
+                <a href="#services" >  <div class="dropdown-link">Back Office Support</div> 
                 </div>
               </div>
+
             </nav>
           </div>
-          <div data-delay="0" data-hover="true" class="dropdown-toggle w-dropdown">
+          <!-- <div data-delay="0" data-hover="true" class="dropdown-toggle w-dropdown">
             <div class="dropdown-toggle w-dropdown-toggle">
               <div class="nav-block">
                 <div class="nav-text">Pages</div><img src="images/dropdown-icon.svg" alt="" class="nav-cursor">
@@ -61,48 +86,80 @@
               <a href="template/styleguides.html" class="navigation-link w-dropdown-link">Styleguides</a>
               <a href="template/licenses.html" class="navigation-link w-dropdown-link">Licenses</a>
             </nav>
-          </div>
+          </div> -->
           <a href="about.html" class="nav-link w-nav-link">About</a>
           <div data-delay="0" data-hover="true" class="dropdown-toggle w-dropdown">
             <div class="dropdown-toggle w-dropdown-toggle">
               <div class="nav-block">
-                <div class="nav-text">Blog</div><img src="images/dropdown-icon.svg" alt="" class="nav-cursor">
+                <div class="nav-text">Social Media</div><img src="images/dropdown-icon.svg" alt="" class="nav-cursor">
               </div>
             </div>
             <nav class="dropdown-list w-dropdown-list">
-              <a href="social-media.html" class="navigation-link w-inline-block">
-                <div class="dropdown-link">All Blog Posts</div>
-              </a>
-              <div class="navigation-wrapper w-dyn-list">
-                <div role="list" class="navigation-list w-dyn-items">
-                  <div role="listitem" class="navigation-item w-dyn-item">
-                    <a href="#" class="navigation-link w-inline-block">
-                      <div class="dropdown-link"></div>
-                    </a>
+            
+                <div class="navigation-wrapper w-dyn-list">
+                    <div role="list" class="navigation-list w-dyn-items">
+                      <div role="listitem" class="navigation-item w-dyn-item">
+                        <a href="#" class="navigation-link w-inline-block">
+                          <div class="dropdown-link"></div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="navigation-empty-state w-dyn-empty">
+                   <a href="https://www.facebook.com/sqreese/" target="_blank" > <div class="dropdown-link">FaceBook</div>
+                   </a>
+                    </div>
                   </div>
-                </div>
-                <div class="navigation-empty-state w-dyn-empty">
-                  <div class="dropdown-link">Nothing found</div>
-                </div>
-              </div>
+
+                  <div class="navigation-wrapper w-dyn-list">
+                    <div role="list" class="navigation-list w-dyn-items">
+                      <div role="listitem" class="navigation-item w-dyn-item">
+                        <a href="#" class="navigation-link w-inline-block">
+                          <div class="dropdown-link"></div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="navigation-empty-state w-dyn-empty">
+                   <a href="https://www.linkedin.com/" target="_blank" > <div class="dropdown-link">LinkedIn</div>
+                   </a>
+                    </div>
+                  </div>
+            
+
+                  <div class="navigation-wrapper w-dyn-list">
+                    <div role="list" class="navigation-list w-dyn-items">
+                      <div role="listitem" class="navigation-item w-dyn-item">
+                        <a href="#" class="navigation-link w-inline-block">
+                          <div class="dropdown-link"></div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="navigation-empty-state w-dyn-empty">
+                   <a href="https://www.instagram.com/" target="_blank" > <div class="dropdown-link">Instagram</div>
+                   </a>
+                    </div>
+                  </div>
+              
             </nav>
           </div>
           <a href="contact.html" class="nav-link w-nav-link">Contact</a>
         </nav>
         <div class="menu-button w-nav-button"><img src="images/icon-menu.svg" alt="" class="menu-icon"></div>
-        <a href="tel:1-420-230-3493" class="button _20l-margin w-button">Call Us Now</a>
+        <a href="tel:1-409-247-0034" class="button _20l-margin w-button">Call Us Now</a>
       </div>
     </div>
   </div>
   <div class="overflow-wrapper">
-    <div class="header service wf-section">
-      <div class="collection-page-overlay"></div>
+    <div class="header pages wf-section">
       <div class="container">
-        <div class="header-content service">
-          <h1 class="h1-heading-light"></h1>
+        <div class="header-content page">
+          <h1 class="h1-heading-light">Services</h1>
         </div>
       </div>
     </div>
+
+
+
+
     <div class="breadcrumb wf-section">
       <div class="container w-clearfix">
         <div class="breadcrumb-div">
@@ -121,7 +178,7 @@
             <p class="paragraph"></p>
             <ul role="list" class="service-benefits">
               <li class="service-benefit-item">
-                <h6 class="h6-heading list"></h6>
+                <h6 class="h6-heading list">something here</h6>
               </li>
               <li class="service-benefit-item">
                 <h6 class="h6-heading list"></h6>

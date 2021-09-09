@@ -2127,7 +2127,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 270px;
+  /* height: 270px; */
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
@@ -2137,7 +2137,7 @@ figcaption {
   -ms-flex-align: end;
   align-items: flex-end;
   border-radius: 6px;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url('https://user-images.githubusercontent.com/70309736/132601287-ccffbf0c-0646-4c9a-b351-f00576d8f8fa.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
